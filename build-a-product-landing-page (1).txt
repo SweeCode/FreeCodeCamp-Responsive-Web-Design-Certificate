@@ -1,0 +1,238 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harley's Dase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#headlines1">Our Product</a></li>
+        <li><a class="nav-link" href="#headlines2">Our Product Video</a></li>
+        <li><a class="nav-link" href="#headlines3">Mail Form</a></li>
+        <li><a class="nav-link" href="#headlines4">Contact Us</a></li>
+      </ul>
+    </nav>
+    <h1 id="headlines1" class="headline">Our Product</h1>
+    <img id="header-img" src="https://www.bobbyfordkubota.com/wp-content/uploads/2023/12/How-Long-Do-Riding-Lawn-Mowers-Last.jpg" alt="man on lawnmower" loading="lazy">
+  </header>
+  <main>
+    <section>
+      <h2 id="headlines2" class="headline">Our Product Video</h2>
+      <video id="video" width="320" height="240" controls>
+        <source src="https://www.youtube.com/watch?v=nxjI0oGG-Ew" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <section>
+      <h2 id="headlines3" class="headline">Mail Form</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email">Email Address</label>
+        <input name="email" id="email" type="email" placeholder="email@example.com" required>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </section>
+    <section>
+      <h2 id="headlines4" class="headline">Contact Us</h2>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-section about">
+        <h2>About Us</h2>
+        <p>We provide top quality products and services. Our aim is to exceed customer expectations through continuous innovation and exceptional service.</p>
+      </div>
+      <div class="footer-section contact">
+        <h2>Contact Us</h2>
+        <ul>
+          <li>Email: contact@lawnmower.com</li>
+          <li>Phone: +123-456-7890</li>
+          <li>Address: yalla</li>
+        </ul>
+      </div>
+      <div class="footer-section social">
+        <h2>Follow Us</h2>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="30"></a>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="30"></a>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Twitter_logo_2012.svg" alt="Twitter" width="30"></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Lawnmower Inc. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Reset and global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Navbar styles */
+#nav-bar {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  padding: 10px 0;
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+#nav-bar ul li {
+  display: inline;
+}
+
+#nav-bar .nav-link {
+  color: #dfdfdf;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#nav-bar .nav-link:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Header styles */
+#header {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#header-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+.headline {
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+
+/* Form styles */
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#form label {
+  margin-bottom: 5px;
+}
+
+#form input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 400px;
+}
+
+#form input[type="submit"] {
+  padding: 
+}
+/* Footer styles */
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-section.social a {
+  display: inline-block;
+  margin: 0 5px;
+  transition: transform 0.3s;
+}
+
+.footer-section.social a:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+** end of undefined **
+

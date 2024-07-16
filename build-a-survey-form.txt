@@ -1,0 +1,168 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>10% Discount after this quick survey</title>
+    <meta charset='UTF-8'>
+  </head>
+  <body>
+    <main>
+      <h1 id='title'>Vita-life Customer Knowledge Survey</h1>
+      <p id='description'> This Survey will help us make your experience better </p>
+      <form id='survey-form'>
+        <fieldset>
+          <label id="name-label">Your Name
+            <input placeholder='Type your name here' id='name' type='text' required>
+          </label>
+          <label id="email-label">Your Email
+            <input placeholder='Where your email goes' id='email' type='email' required>
+          </label>
+          <label id="number-label">Your Age
+            <input placeholder='Age' id='number' type='number' min='5' max='100' required>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>How satisfied are you with our site</legend>
+          <select id='dropdown'>
+            <option>Excellent, no issues</option>
+            <option>Great, Minor issues</option>
+            <option>Good, could be improved</option>
+            <option>Ok, wouldn't use again</option>
+            <option>Not functional</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Did you make a purchase</legend>
+          <label>
+            <input name='purchase' type='radio' value='yes'>Yes
+          </label>
+          <label>
+            <input name='purchase' type='radio' value='no'>No
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>What parts were good?</legend>
+          <label>
+            <input type='checkbox' value='layout'>Layout
+          </label>
+          <label>
+            <input type='checkbox' value='products'>Products
+          </label>
+          <label>
+            <input type='checkbox' value='pricing'>Pricing
+          </label>
+          <label>
+            <input type='checkbox' value='checkout'>Checkout
+          </label>
+          <label>
+            <input type='checkbox' value='experience'>Overall experience
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Anything you would like to add? (optional)</legend>
+          <label>
+            <textarea></textarea>
+          </label>
+        </fieldset>
+        <input id='submit' type='submit' value='Submit'>
+      </form>
+    </main>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2em;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#description {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+form {
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.5em;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 1em;
+  margin-top: 1em;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+** end of undefined **
+

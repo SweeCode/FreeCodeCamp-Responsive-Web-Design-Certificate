@@ -1,0 +1,166 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>NavBar</header>
+      <a class="nav-link" href="#Chicken">Chicken</a>
+      <a class="nav-link" href="#Shop">Shop</a>
+      <a class="nav-link" href="#Number">Number</a>
+      <a class="nav-link" href="#One">One</a>
+      <a class="nav-link" href="#Two">Two</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Chicken">
+        <header>Chicken</header>
+        <p></p>
+        <p></p>
+        <p></p>
+        <code></code>
+        <code></code>
+        <ul>
+          <li>ninja</li>
+          <li>ninja2</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Shop">
+        <header>Shop</header>
+        <code></code>
+        <p></p>
+        <p></p>
+        <p></p>
+        <ul>
+          <li>iie</li>
+          <li>iie2</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Number">
+        <header>Number</header>
+        <p></p>
+        <p></p>
+        <code></code>
+        <ul>
+          <li>owner</li>
+          <li>owner2</li>
+        </ul>
+      </section>
+      <section class="main-section" id="One">
+        <header>One</header>
+        <p></p>
+        <p></p>
+        <code></code>
+        <ul>
+          <li>plus</li>
+          <li>plus2</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Two">
+        <header>Two</header>
+        <p></p>
+        <p></p>
+        <code></code>
+        <ul>
+          <li>boy</li>
+          <li>boy2</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Smooth scrolling for users who prefer it */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Reset and global styles */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+#navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #000;
+  color: #dfdfdf;
+  padding: 20px;
+}
+
+#navbar header {
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.nav-link {
+  color: #dfdfdf;
+  text-decoration: none;
+  margin: 10px 0;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Main content styles */
+#main-doc {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 40px;
+}
+
+.main-section > header {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.main-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.main-section ul li {
+  margin-bottom: 5px;
+}
+
+code {
+  display: block;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+
+** end of undefined **
+

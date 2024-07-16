@@ -1,0 +1,132 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <nav id="navbar">
+      <a href="#Project1">First project</a>
+    </nav>
+  </header>
+  <main>
+    <section id="welcome-section">
+      <h1>Welcome to my Personal Portfolio</h1>
+    </section>
+    <section id="projects">
+      <div class="project-tile">
+        <a id="Project1" href="https://github.com/bradtraversy/50projects50days/tree/master" target="_blank">Project 1</a>
+      </div>
+    </section>
+    <p>Check out my Github <a id="profile-link" target="_blank" href="https://github.com/SweeCode">Profile</a></p>
+  </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: linen;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Body Styles */
+body {
+  background-image: url('https://avatars.githubusercontent.com/u/173251781?v=4');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding-top: 50px; /* To offset the fixed navbar */
+}
+
+/* Section Styles */
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#welcome-section {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+#projects .project-tile {
+  margin: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+#projects .project-tile a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#projects .project-tile:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Styles */
+p {
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+#profile-link {
+  color: #00f;
+  text-decoration: none;
+}
+
+#profile-link:hover {
+  text-decoration: underline;
+}
+
+
+** end of undefined **
+
